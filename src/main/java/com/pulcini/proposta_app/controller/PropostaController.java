@@ -2,6 +2,8 @@ package com.pulcini.proposta_app.controller;
 
 import com.pulcini.proposta_app.dto.PropostaRequestDto;
 import com.pulcini.proposta_app.dto.PropostaResponseDto;
+import com.pulcini.proposta_app.mapper.PropostaMapper;
+import com.pulcini.proposta_app.mapper.PropostaMapperImpl;
 import com.pulcini.proposta_app.service.PropostaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
